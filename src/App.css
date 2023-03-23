@@ -23,6 +23,9 @@
     margin-bottom: 40px;
     max-width: 600px;
   }
+  .description{
+    margin-bottom: 40px;
+  }
   .Cards{
     flex-direction: column;
     align-items: flex-end;
