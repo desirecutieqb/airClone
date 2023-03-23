@@ -1,0 +1,119 @@
+@media screen and (max-width:1200px) {
+  .Nav>svg {
+    height: 400px;
+    width: 250px;
+    padding:10px ;
+  }
+  
+  .container{
+    max-width: 970px;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:970px) {
+  .container{
+    max-width: 750px;
+  }
+}
+@media screen and (max-width:767px) {
+  .container{
+    max-width: none;
+  }
+  .description{
+    margin-bottom: 40px;
+  }
+  .photo-grid{
+    margin-bottom: 40px;
+  }
+  .Cards{
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+  }
+  .card3{
+    margin-top: 50px;
+    margin-right: 20px;
+  }
+  .Nav{
+    min-width: 650px;
+  }
+}
+
+.Nav {
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  color: white;
+  padding: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.Nav>svg {
+  height: 200px;
+  width: 150px;
+  padding:10px ;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: max-content;
+}
+
+.photo-grid {
+  height:400px;
+  margin-bottom:32px;
+}
+
+h1 {
+  font-size: 56px;
+  margin-bottom: 16px;
+}
+.description{
+  font-size: 30px;
+  color:#918E9B;
+  height: 150px;
+  line-height: 100%;
+}
+
+.container{
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+}
+.Cards{
+  display:flex;
+}
+.Main-text{
+  padding-left: 37px;
+  margin-right: 10px;
+}
+.Cards > .card1,.card2{
+  margin-right: 10px;
+}
+.card2,.card3{
+  height:353px;
+}
+.card-stats{
+  margin-bottom: 8px;
+  margin-top:9px;
+}
+.card-star{
+  margin-right:2px;
+}
+.rating-country{
+  font-weight: 300;
+  color:#918E9B;
+}
+.bold{
+  font-weight: bold;
+}
+.card-desk{
+  margin-bottom: 8px;
+}
+
