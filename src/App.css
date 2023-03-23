@@ -16,14 +16,12 @@
   }
 }
 @media screen and (max-width:767px) {
-  .container{
-    max-width: none;
-  }
-  .description{
-    margin-bottom: 40px;
+  body{
+    min-width: 100px;
   }
   .photo-grid{
     margin-bottom: 40px;
+    max-width: 600px;
   }
   .Cards{
     flex-direction: column;
@@ -36,7 +34,7 @@
     margin-right: 20px;
   }
   .Nav{
-    min-width: 650px;
+    min-width: 500px;
   }
 }
 
