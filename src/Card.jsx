@@ -1,8 +1,15 @@
 import star from "../public/assets/star.png"
 export default function Card(props) {
+    let badgeTitle;
+    if (props.openSpots === 0) {
+        badgeTitle = "SOLD OUT"
+    } else if (props.location === "Online") {
+        badgeTitle = "ONLINE"
+    }
     return (
-        <div className={`card${props.cardNumber}`}>
-            <img src={`../public/assets/${props.image}`} alt="" className={`card${props.cardNumber}`} />
+        <div className="card">
+            {badgeTitle && <div className="card-badge"><h3>{badgeTitle}</h3></div>}
+            <img src={`../public/assets/${props.image}`} alt="" className="card" />
             <div className="card-stats">
                 <img src={star} alt="" className='card-star' />
                 <span>{props.rating}</span>
