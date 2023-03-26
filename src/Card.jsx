@@ -6,9 +6,13 @@ export default function Card(props) {
     } else if (props.location === "Online") {
         badgeTitle = "ONLINE"
     }
+
     return (
         <div className="card">
-            {badgeTitle && <div className="card-badge"><h3>{badgeTitle}</h3></div>}
+            {
+                badgeTitle &&
+                <div className="card-badge"><h3>{badgeTitle}</h3></div>
+            }
             <img src={`../public/assets/${props.image}`} alt="" className="card" />
             <div className="card-stats">
                 <img src={star} alt="" className='card-star' />

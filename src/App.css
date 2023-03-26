@@ -47,9 +47,9 @@ h1 {
 }
 
 .Cards {
-  position: relative;
   display: flex;
   justify-content: space-between;
+  gap:40px;
 }
 
 .Main-text {
@@ -58,11 +58,12 @@ h1 {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
   padding-left: 10px;
   height: 500px;
-  margin-right: 10px;
   border-radius: 9px;
-  width: 100%;
 }
 
 .card-stats {
@@ -88,6 +89,7 @@ h1 {
 }
 
 .card-badge {
+  z-index: 1;
   position: absolute;
   top: 6px;
   left: 30px;

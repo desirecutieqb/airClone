@@ -8,7 +8,7 @@ export default [
         title: "Life Lessons with Katie Zaferes",
         price: 136,
         openSpots: 0,
-        location: "USA"
+        location: "Online"
     },
     {
         id: 2,
@@ -18,8 +18,8 @@ export default [
         country: "USA",
         title: "Learn wedding photography",
         price: 125,
-        openSpots: 123,
-        location: "Mexico"
+        openSpots: 12,
+        location: "Online"
     },
     {
         id: 3,
@@ -28,6 +28,7 @@ export default [
         reviewCount: 2,
         country: "USA",
         title: "Group Mountain Biking",
+        price: 50,
         openSpots: 4,
         location: "Norway"
     }

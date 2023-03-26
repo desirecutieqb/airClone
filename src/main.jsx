@@ -3,17 +3,10 @@ import data from "./data"
 import Hero from "./Hero"
 export default function Main() {
 
-    const cardData = data.map(data => {
+    const cardData = data.map(item => {
         return <Card
-            key={data.id}
-            image={data.image}
-            rating={data.rating}
-            reviewCount={data.reviewCount}
-            country={data.country}
-            title={data.title}
-            price={data.price}
-            openSpots={data.openSpots}
-            location={data.location} />
+            key={item.id}
+            {...item} />
     })
     return (
         <main className='Main'>
