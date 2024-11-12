@@ -1,11 +1,15 @@
 import './App.css'
 import Nav from "./Nav"
 import Main from "./Main"
+import { ThemeProvider } from '../context/themeContext.jsx';
+
 export default function App() {
   return (
     <div className="App">
-      <Nav />
-      <Main />
+      <ThemeProvider>
+        <Nav />
+        <Main />
+      </ThemeProvider>
     </div>
   )
 }
