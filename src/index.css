@@ -10,4 +10,11 @@ body{
 }
 
 
+.theme-toggle-btn{
+  position: relative;
+  left: 1400px;
+  bottom: 5px;
+  width:40px;
+  font-size: 20px;
+}
 
