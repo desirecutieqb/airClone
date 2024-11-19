@@ -1,6 +1,6 @@
 import './App.css'
 import Nav from "./Nav"
-import Main from "./Main"
+import Main from "./Main.jsx"
 import { ThemeProvider } from '../context/themeContext.jsx';
 
 export default function App() {

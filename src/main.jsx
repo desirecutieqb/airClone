@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Card from './Card';
 import data from './data';
 import Hero from './Hero';
-
+//updated File name for deployment
 const MainContainer = styled.main`
   background-color: ${(props) => props.theme.background};
   color: ${(props) => props.theme.text};
